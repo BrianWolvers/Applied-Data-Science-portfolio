@@ -19,4 +19,3 @@ Tijdens de minor is er onderandere een aantal cursussen gevolgd op de website da
 ## Commuication
 
 
-[testlink](https://www.datacamp.com/statement-of-accomplishment/course/0d531e35d461c7d5e45b456a86d07f2fae246447)

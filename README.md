@@ -5,3 +5,15 @@
 ## Domain knowledge
 
 ## Predictive Models
+
+## Data Preperation
+
+## Data Visualization
+
+## Data Collection
+
+## Evaluation
+
+## Diagnostics of the learning process
+
+## Commuication

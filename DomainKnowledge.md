@@ -2,7 +2,7 @@
 
 ## Algemene kennis
 
-De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Een reachstacker zou je kunnen zien als een grote vorkheftruck speciaal voor het optillen van containers. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano. Op deze plattegrond zijn verschillende Markers te zien en binnen deze markers zijn de verschillende Stacks te herkennnen. 
+De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Een reachstacker zou je kunnen zien als een grote vorkheftruck speciaal voor het optillen van containers. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano. Op deze plattegrond zijn verschillende Markers te zien en binnen deze markers zijn de verschillende Stacks te herkennnen. Volgens de website Datafloq zijn er versc
 
 ## Datasets
 Vanuit Cofano zijn er meerdere CSV's ontvangen met data over de bestaande kade. Deze CSV's bevatten informatie over de kade, het geeft aan waar een containers op de kade is geplaatst, alle verplaatsingen van containers die uitgevoerd zijn, extra informatie over een container die verplaatst is en een CSV die informatie geeft over containers die getransporteerd zijn.  
@@ -30,9 +30,12 @@ Wanneer er iets met een container moet gebeuren dan wordt dit in deze CSV opgesl
 
 ## Bibliografie
 
+De hieronder aangegeven bronnen zijn niet allemaal gebruikt in het beschrijven van de het hoofdstuk domain knowledge, maar zijn gebruikt tijdens het opbouwen van het gemaakte product tijdens het project. 
+
 Team, P. T. (2021, 5 mei). How can ports use Artificial Intelligence? Port Technology International. https://www.porttechnology.org/news/how-can-ports-use-artificial-intelligence/
 
 O’Dwyer, R. (2022, 2 maart). An artificial intelligence use case for smart port resource allocation. Smart Maritime Network. https://smartmaritimenetwork.com/2022/03/03/an-artificial-intelligence-use-case-for-smart-port-resource-allocation/
 
 Yeo, D. (2022, 15 september). How AI Will Boost Sustainability at the Port of Tanjung Pelepas. MarineLink. https://www.marinelink.com/news/ai-boost-sustainability-port-tanjung-499487
 
+Marsh, J. (2022, 27 september). How AI Could Solve Shipping Container Buildup at Ports. Datafloq. https://datafloq.com/read/ai-could-solve-shipping-container-buildup-at-ports/

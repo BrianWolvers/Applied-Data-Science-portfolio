@@ -30,4 +30,9 @@ Wanneer er iets met een container moet gebeuren dan wordt dit in deze CSV opgesl
 
 ## Bibliografie
 
+Team, P. T. (2021, 5 mei). How can ports use Artificial Intelligence? Port Technology International. https://www.porttechnology.org/news/how-can-ports-use-artificial-intelligence/
+
+O’Dwyer, R. (2022, 2 maart). An artificial intelligence use case for smart port resource allocation. Smart Maritime Network. https://smartmaritimenetwork.com/2022/03/03/an-artificial-intelligence-use-case-for-smart-port-resource-allocation/
+
+Yeo, D. (2022, 15 september). How AI Will Boost Sustainability at the Port of Tanjung Pelepas. MarineLink. https://www.marinelink.com/news/ai-boost-sustainability-port-tanjung-499487
 

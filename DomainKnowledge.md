@@ -1,11 +1,13 @@
 # Domain Knowledge van het Container project
 
+In dit onderdeel zal eerst de algemene kennis van het container project behandeld worden en vervolgens informatie over de verkregen data van Cofano.
+
 ## Algemene kennis
 
-De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano
+De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano. Op deze plattegrond zijn verschillende Markers te zien en binnen deze markers zijn de verschillende Stacks te herkennnen. 
 
 ## Datasets
-Vanuit de opdrachtgevende organisatie Cofano zijn er meerdere CSV's ontvangen met data over de bestaande kade. Deze CSV's bevatten informatie over de kade, het geeft aan waar een containers op de kade is geplaatst, alle verplaatsingen van containers die uitgevoerd zijn, extra informatie over een container die verplaatst is en een CSV die informatie geeft over containers die getransporteerd zijn.  
+Vanuit Cofano zijn er meerdere CSV's ontvangen met data over de bestaande kade. Deze CSV's bevatten informatie over de kade, het geeft aan waar een containers op de kade is geplaatst, alle verplaatsingen van containers die uitgevoerd zijn, extra informatie over een container die verplaatst is en een CSV die informatie geeft over containers die getransporteerd zijn.  
 
 ### [Stacks](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/stacks.csv) + [Marker](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/marker.csv) 
 

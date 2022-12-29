@@ -1,10 +1,8 @@
 # Domain Knowledge van het Container project
 
-In dit onderdeel zal eerst de algemene kennis van het container project behandeld worden en vervolgens informatie over de verkregen data van Cofano.
-
 ## Algemene kennis
 
-De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano. Op deze plattegrond zijn verschillende Markers te zien en binnen deze markers zijn de verschillende Stacks te herkennnen. 
+De opdrachtgevende organisatie van het uitgevoerde project is Cofano Software Solutions. De organisatie is benieuwd naar welke mogelijkheden er zijn voor het indelen van containers doormiddel van AI mogelijkheden. Voor het uitgevoerde project is er aangegeven dat container vanaf binenvaartschepen op de kade geladen worden en vanaf de kade op zeeschepen. Voor simplificatie is er maar één type machine die gebruikte kan worden om de containers te verplaatsen. Deze machine heet een reachstacker. Een reachstacker zou je kunnen zien als een grote vorkheftruck speciaal voor het optillen van containers. Deze machine kan maximaal vier containers op elkaar zetten. Vanuit Cofano is er een plattegrond ontvangen van een klant van Cofano. Op deze plattegrond zijn verschillende Markers te zien en binnen deze markers zijn de verschillende Stacks te herkennnen. 
 
 ## Datasets
 Vanuit Cofano zijn er meerdere CSV's ontvangen met data over de bestaande kade. Deze CSV's bevatten informatie over de kade, het geeft aan waar een containers op de kade is geplaatst, alle verplaatsingen van containers die uitgevoerd zijn, extra informatie over een container die verplaatst is en een CSV die informatie geeft over containers die getransporteerd zijn.  
@@ -28,3 +26,8 @@ Deze CSV geeft extra informatie over de locatie van een container. Er zijn 3 typ
 ### [Action](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/actions.csv)
 
 Wanneer er iets met een container moet gebeuren dan wordt dit in deze CSV opgeslagen. Dit kan zijn dat een container binnen de haven naar een andere kade moet of een andere actie. Als een container de haven verlaten heeft dan wordt hier ook informatie over opgeslagen. Een voorbeeld hiervan is dat het momente dat de container de haven in is gekomen en ook het vertrekmoment ervan is opgeslagen. Uit deze dataset is te halen welke acties er allemaal zijn uitgevoerd op een specifieke container.
+
+
+## Bibliografie
+
+

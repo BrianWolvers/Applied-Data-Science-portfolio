@@ -24,4 +24,4 @@ Deze CSV geeft extra informatie over de locatie van een container. Er zijn 3 typ
 
 ### [Action](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/actions.csv)
 
-
+Wanneer er iets met een container moet gebeuren dan wordt dit in deze CSV opgeslagen. Dit kan zijn dat een container binnen de haven naar een andere kade moet of een andere actie. Als een container de haven verlaten heeft dan wordt hier ook informatie over opgeslagen. Een voorbeeld hiervan is dat het momente dat de container de haven in is gekomen en ook het vertrekmoment ervan is opgeslagen. Uit deze dataset is te halen welke acties er allemaal zijn uitgevoerd op een specifieke container.

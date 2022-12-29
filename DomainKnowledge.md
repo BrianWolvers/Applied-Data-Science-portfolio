@@ -17,3 +17,11 @@ In de CSV [Stacks entry](https://github.com/BrianWolvers/ADS/blob/main/Container
 ### [Handling](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/handling.csv)
 
 In de CSV [Handling](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/handling.csv) zijn verplaatsingen van containers geregistreerd. Bij een verplaatsing van een container is er meer informatie bekend als alleen de vertreklocatie en de vertreklocatie. Zo is er de begin- en eindtijd van een verplaatsing opgeslagen samen met welke machine de verplaatsing heeft uitgevoerd en een hoog die prioriteit van de verplaatsing was. Zo kan er dus gekeken worden hoeveel containers er op een dag in en uit gaan en hoeveel verplaatsingen er inter gedaan worden.
+
+### [Container location information](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/containerlocationinformation.csv)
+
+Deze CSV geeft extra informatie over de locatie van een container. Er zijn 3 typen locaties waar de dataset informatie geeft, dit zijn namelijk als een container op de kade staat, wanneer de container op een vrachtwagen staat en wanneer hij op een schip staat. Als een container op de kade staat, dan is hierover ook een Marker- en stackID van bekend. Dit kan gebruikt worden om containers op de kade te plaatsen in een simulatie omgeving.
+
+### [Action](https://github.com/BrianWolvers/ADS/blob/main/ContainerDataset/actions.csv)
+
+

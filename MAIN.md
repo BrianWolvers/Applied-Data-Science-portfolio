@@ -18,4 +18,8 @@ In het onderdeel Domain knowledge word er besproken welke kennis er is vergaard 
 
 ## Commuication
 
+## Python Notebooks
+
+## Scrum backlog 
+
 

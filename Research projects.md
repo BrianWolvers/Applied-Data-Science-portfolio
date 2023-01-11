@@ -15,3 +15,11 @@ Om te achterhalen welke mogelijkheden er zijn om dit probleem op te lossen doorm
 Het indelen van de containers is momenteel nog niet gelukt voor de gehele kade van de klant van Cofano. Momenteel is er maar een klein gedeelte hiervan gebruikt voor het berekenen van de ideale indeling van de containers. Voor verder onderzoek kan de environment van het reinforcement model uitgebreid worden om de gehele kade te berekenen.
 
 Door gebrek aan tijd is het ons niet gelukt om het reinforcement model te trainen op een kade die gedeeltelijk gevuld is. Als we meer tijd hadden gehad, dan zouden wij dit proberen en de resultaten ervan analyseren. 
+
+Tijdens ons onderzoek hebben wij ons gefocused op het optimaliseren van het uitlaad proces om het inlaadproces te kunnen versnellen door containers die naar hetzelfde schip gaan bij elkaar te zetten. Helaas zijn we er niet aan toe gekomen om het inlaadproces zelf te simuleren. In deze simulatie zou een echte situatie nagebootst kunnen worden, maar met de containers ingedeeld op basis van het reinforcement model. Hiermee zou het model gecontroleerd kunnen worden om te bepalen of de containers in de gesimuleerde omgeving sneller ingeladen zijn.
+
+In de gesimuleerde situatie wordt er momenteel maar gebruik gemaakt van één machine om de containers te verplaatsen. Dit zou uitgebreidt kunnen worden door meerdere type machines en/of meerdere machines van dezelfde soort. Nu wordt er maar één reachstacker gebruikt, maar er zijn op de haven ook kranen en andere machines voor transport van containers.
+
+Voor het trainen wordt momenteel zelf gegenereerde data gebruikt voor het bepalen van de hoeveelheid containers die aankomen en naar hoeveel schepen deze toe moeten. Hiervoor is er niet gebruik gemaakt van de schema's of planning in echte situatie. Als er meer tijd zou zijn, dan was dit een onderdeel waar wij onderzoek naar zouden doen om deze data te gebruiken voor het simuleren van de omgeving.
+
+## Conclusions

@@ -1,10 +1,12 @@
 # Datacamp courses
 Hier onder is te zien dat alle 16 courses zijn uitgevoerd. De certificaten zijn per week ingedeeld.
-## Week 1
+<details>
+   <summary>Week 1</summary>
 ![week1course1](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/introduction%20to%20python/introduction%20to%20python-1.jpg)
 ![week1course2](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Intermediatee%20Python/Intermediatee%20Python-1.jpg)
 ![week1course3](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Python%20Data%20Science%20Toolbox%20(Part%201)/Python%20Data%20Science%20Toolbox%20(Part%201)-1.jpg)
 ![week1course4](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Python%20Data%20Science%20Toolbox%20(Part%202)/Python%20Data%20Science%20Toolbox%20(Part%202)-1.jpg)
+  </details>
 ## Week 2
 ![week2course1](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Statistical%20Thinking%20in%20Python%20(Part%201)/Statistical%20Thinking%20in%20Python%20(Part%201)-1.jpg)
 ![week2course2](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Machine%20Learning%20with%20scikit-learn/Machine%20Learning%20with%20scikit-learn-1.jpg)

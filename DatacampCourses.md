@@ -2,6 +2,7 @@
 Hier onder is te zien dat alle 16 courses zijn uitgevoerd. De certificaten zijn per week ingedeeld.
 <details>
    <summary>Week 1</summary>
+   <img src="](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/introduction%20to%20python/introduction%20to%20python-1.jpg" />
 ![week1course1](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/introduction%20to%20python/introduction%20to%20python-1.jpg)
 ![week1course2](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Intermediatee%20Python/Intermediatee%20Python-1.jpg)
 ![week1course3](https://github.com/BrianWolvers/ADS/blob/main/pdftoimage/Python%20Data%20Science%20Toolbox%20(Part%201)/Python%20Data%20Science%20Toolbox%20(Part%201)-1.jpg)

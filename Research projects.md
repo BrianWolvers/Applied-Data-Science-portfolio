@@ -23,3 +23,11 @@ In de gesimuleerde situatie wordt er momenteel maar gebruik gemaakt van één ma
 Voor het trainen wordt momenteel zelf gegenereerde data gebruikt voor het bepalen van de hoeveelheid containers die aankomen en naar hoeveel schepen deze toe moeten. Hiervoor is er niet gebruik gemaakt van de schema's of planning in echte situatie. Als er meer tijd zou zijn, dan was dit een onderdeel waar wij onderzoek naar zouden doen om deze data te gebruiken voor het simuleren van de omgeving.
 
 ## Conclusions
+
+
+
+## Planning
+Voor het plannen van de verschillende sprints en onderzoeken is er gebruik gemaakt van een scrumboard. Dit Scrumboard is gemaakt op de website Trello. Hieronder ziet u een foto van het scrumboard zoals deze er momenteel uit ziet.
+![image](https://user-images.githubusercontent.com/121485743/212014720-201f27d9-c6a4-49cb-bfe5-3f1d323ba3be.png)
+Op de foto zijn vijf verschillende blokken te zien. allereerst is er de backlog. In de backlog staan onderdelen welke in een latere sprint uitgevoerd gaan worden. Deze onderdelen staan nog in de backlog ondanks dat het project klaar is, want als er meer tijd was dan hadden wij deze taken nog willen uitvoeren. In het onderdeel To Do staan onderdelen die deze sprint nog uitgevoerd moeten worden. Het volgende blok heet Doing. In dit blok staan de onderdelen waar momenteel aan gewerkt wordt. Het vierde blok genaamd Checking gaat over onderdelen welke momenteel gecontroleerd moeten worden. Dit kan intern door een ander projectlid zijn of door één van de begeleiders van het project. In dit geval staan er drie onderdelen van de paper. Deze onderdelen zijn opgestuurd naar Tony ter controle. Als laatste blok is er het onderdeel Done. In de blok staan alle activiteiten die afgerond zijn. Hierin zijn ook de activiteiten van de vorige sprints te vinden. Aan elke activiteit wordt een persoon of meerdere personen aan gekoppeld. Zo is er overzichtelijk wie waaraan werkt
+

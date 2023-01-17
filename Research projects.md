@@ -8,7 +8,7 @@ Binnen de havens van de klanten van Cofano worden momenteel de containers op de 
 Op basis van de opdrachtomschrijving was er de volgende onderzoeksvraag opgesteld: Hoe kunnen de containers optimaal ingedeeld worden, zodat de containers die bestemd zijn voor hetzelfde zeeschip bij elkaar blijven? Het doel achter de onderzoeksvraag was dat wij wilde achterhalen hoe containers zo veel mogelijk in groepen ingedeeld kunnen worden, want als containers die voor hetzelfde schip bestemd zijn in dezelfde rij staan dan staan er geen andere containers in de weg. Daarnaast wilde wij ook methodes selecteren naar welke wij meer onderzoek wilde doen om te achterhalen hoe geschikt zijn voor het oplossen van de probleemstelling.
 
 ### Onderzoeksvraag 2
-Om te achterhalen welke mogelijkheden er zijn om dit probleem op te lossen doormiddel van data science moet hier onderzoek naar gedaan worden. Op basis hiervan is er de volgende onderzoeksvraag opgesteld: Welke AI-mogelijkheden zijn er om de indeling van containers op de kade te bepalen? Om deze onderzoeksvraag te beantwoorden is er deskresearch uitgevoerd door verschillende papers, blogs en video's bestudeerd om verschillende methodes van AI te bestuderen.
+Om te achterhalen welke mogelijkheden er zijn om dit probleem op te lossen doormiddel van data science moet hier onderzoek naar gedaan worden. Op basis hiervan is er de volgende onderzoeksvraag opgesteld: Welke data science mogelijkheden zijn er om de indeling van containers op de kade te bepalen? Om deze onderzoeksvraag te beantwoorden is er deskresearch uitgevoerd door verschillende papers, blogs en video's bestudeerd om verschillende methodes van AI te bestuderen.
 
 ## Evaluation
 
@@ -23,6 +23,11 @@ In de gesimuleerde situatie wordt er momenteel maar gebruik gemaakt van één ma
 Voor het trainen wordt momenteel zelf gegenereerde data gebruikt voor het bepalen van de hoeveelheid containers die aankomen en naar hoeveel schepen deze toe moeten. Hiervoor is er niet gebruik gemaakt van de schema's of planning in echte situatie. Als er meer tijd zou zijn, dan was dit een onderdeel waar wij onderzoek naar zouden doen om deze data te gebruiken voor het simuleren van de omgeving.
 
 ## Conclusions
+Tijdens het onderzoek zijn er twee methodes onderzocht welke mogelijk het proces van containers indelen op de kade kunnen verbeteren. Bij Reinforcement Learning is er de mogelijkheid op basis van input data de containers in te delen op de kade. Momenteel geef je aan het model mee hoeveel containers je wilt plaatsen op de kade en over hoeveel schepen deze verdeeld zijn. het model gaat dan trainen op de verschillende mogelijkheden die er zijn van de input die je hebt gegeven.
+
+
+
+![image](https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png)
 
 
 

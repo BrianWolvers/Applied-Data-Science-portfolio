@@ -27,7 +27,7 @@ Tijdens het onderzoek zijn er twee methodes onderzocht welke mogelijk het proces
 
 
 
-![image](https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png =250x250)
+![image](https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png)
 
 
 

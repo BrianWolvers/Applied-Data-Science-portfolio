@@ -29,7 +29,7 @@ Tijdens het onderzoek zijn er twee methodes onderzocht welke mogelijk het proces
 
 De tweede methode is Lineair programmeren. Deze methode gaat een hele andere richting in als Reinforcement Learning. Bij deze methode stel je namelijk restricties waarop een bepaald model moet voldoen en op basis van die restricties gaat het model de containers indelen. Het model hoeft dus niks te leren of trainen voordat het de acties kan uitvoeren. Op de foto hieronder ziet u een indeling die het lineair programmeermodel heeft gemaakt op basis van de restricties. Het model deed hier ongeveer vier seconden over, maar door problemen met het model binnen de gebruikte library maakt deze bijna 50 procent van de tijd een indeling welke niet zou mogen volgens de restricties.
 
-<img src="https://user-images.githubusercontent.com/121485743/212912743-3c333fd2-4fb5-4494-ae0e-056d6e45847f.png" width="300" height="300" />
+<img src="https://user-images.githubusercontent.com/121485743/212912743-3c333fd2-4fb5-4494-ae0e-056d6e45847f.png" width="500" height="300" />
 
 ## Planning
 Voor het plannen van de verschillende sprints en onderzoeken is er gebruik gemaakt van een scrumboard. Dit Scrumboard is gemaakt op de website Trello. Hieronder ziet u een foto van het scrumboard zoals deze er momenteel uit ziet.

@@ -16,19 +16,15 @@ Het indelen van de containers is momenteel nog niet gelukt voor de gehele kade v
 
 Door gebrek aan tijd is het ons niet gelukt om het reinforcement model te trainen op een kade die gedeeltelijk gevuld is. Als we meer tijd hadden gehad, dan zouden wij dit proberen en de resultaten ervan analyseren. 
 
-Tijdens ons onderzoek hebben wij ons gefocused op het optimaliseren van het uitlaad proces om het inlaadproces te kunnen versnellen door containers die naar hetzelfde schip gaan bij elkaar te zetten. Helaas zijn we er niet aan toe gekomen om het inlaadproces zelf te simuleren. In deze simulatie zou een echte situatie nagebootst kunnen worden, maar met de containers ingedeeld op basis van het reinforcement model. Hiermee zou het model gecontroleerd kunnen worden om te bepalen of de containers in de gesimuleerde omgeving sneller ingeladen zijn.
+Tijdens ons onderzoek hebben wij ons gefocused op het optimaliseren van het uitlaad proces om het inlaadproces te kunnen versnellen door containers die naar hetzelfde schip gaan bij elkaar te zetten. Helaas zijn we er niet aan toe gekomen om het inlaadproces zelf te simuleren. In deze simulatie zou een echte situatie nagebootst kunnen worden, maar met de containers ingedeeld op basis van het Reinforcement model. Hiermee zou het model gecontroleerd kunnen worden om te bepalen of de containers in de gesimuleerde omgeving sneller ingeladen zijn.
 
 In de gesimuleerde situatie wordt er momenteel maar gebruik gemaakt van één machine om de containers te verplaatsen. Dit zou uitgebreidt kunnen worden door meerdere type machines en/of meerdere machines van dezelfde soort. Nu wordt er maar één reachstacker gebruikt, maar er zijn op de haven ook kranen en andere machines voor transport van containers.
 
 Voor het trainen wordt momenteel zelf gegenereerde data gebruikt voor het bepalen van de hoeveelheid containers die aankomen en naar hoeveel schepen deze toe moeten. Hiervoor is er niet gebruik gemaakt van de schema's of planning in echte situatie. Als er meer tijd zou zijn, dan was dit een onderdeel waar wij onderzoek naar zouden doen om deze data te gebruiken voor het simuleren van de omgeving.
 
 ## Conclusions
-Tijdens het onderzoek zijn er twee methodes onderzocht welke mogelijk het proces van containers indelen op de kade kunnen verbeteren. Bij Reinforcement Learning is er de mogelijkheid op basis van input data de containers in te delen op de kade. Momenteel geef je aan het model mee hoeveel containers je wilt plaatsen op de kade en over hoeveel schepen deze verdeeld zijn. het model gaat dan trainen op de verschillende mogelijkheden die er zijn van de input die je hebt gegeven.
-
-
-
-![image](https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png)
-<img src="https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png" width="100" height="100" />
+Tijdens het onderzoek zijn er twee methodes onderzocht welke mogelijk het proces van containers indelen op de kade kunnen verbeteren. Bij Reinforcement Learning is er de mogelijkheid op basis van input data de containers in te delen op de kade. Momenteel geef je aan het model mee hoeveel containers je wilt plaatsen op de kade en over hoeveel schepen deze verdeeld zijn. het model gaat dan trainen op de verschillende mogelijkheden die er zijn van de input die je hebt gegeven. Na het trainen van het model kan deze binnen een seconden in goede oplossing geven voor het invullen van de containers op de kade. Zodra het model getraind is geeft hij oplossing zoals degene die op de foto hieronder te zien is. De code voor dit model is geschreven door Milan
+<img src="https://user-images.githubusercontent.com/121485743/212847752-812bb992-70a0-470c-8c58-c3be6453c7b6.png" width="300" height="300" />
 
 
 ## Planning

@@ -31,6 +31,8 @@ De tweede methode is Lineair programmeren. Deze methode gaat een hele andere ric
 
 <img src="https://user-images.githubusercontent.com/121485743/212912743-3c333fd2-4fb5-4494-ae0e-056d6e45847f.png" width="500" height="300" />
 
+Elk van deze methodes zet de containers die voor hetzelfde schip op zijn eigen manier bij elkaar. Binnen het Reinforced Learning model krijgt het model een extra reward als deze meerdere containers voor hetzelfde schip tegen elkaar zet en binnen het Lineair Programmeer model is er een restrictie dat containers alleen op of voor andere containers gezet mogen worden die later weg gaan dan de container zelf. binnen dit model vertrekt namelijk eerst schip 1 dan 2 en als laatste 3. Op deze manier ontstaan er groepen containers voor hetzelfde schip. De code voor het lineair programmeer model is geschreven door Bram ten Cate
+
 ## Planning
 Voor het plannen van de verschillende sprints en onderzoeken is er gebruik gemaakt van een scrumboard. Dit Scrumboard is gemaakt op de website Trello. Hieronder ziet u een foto van het scrumboard zoals deze er momenteel uit ziet.
 ![image](https://user-images.githubusercontent.com/121485743/212014720-201f27d9-c6a4-49cb-bfe5-3f1d323ba3be.png)

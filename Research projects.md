@@ -8,7 +8,7 @@ Binnen de havens van de klanten van Cofano worden momenteel de containers op de 
 Op basis van de opdrachtomschrijving was er de volgende onderzoeksvraag opgesteld: Hoe kunnen de containers optimaal ingedeeld worden, zodat de containers die bestemd zijn voor hetzelfde zeeschip bij elkaar blijven? Het doel achter de onderzoeksvraag was dat wij wilde achterhalen hoe containers zo veel mogelijk in groepen ingedeeld kunnen worden, want als containers die voor hetzelfde schip bestemd zijn in dezelfde rij staan dan staan er geen andere containers in de weg. Daarnaast wilde wij ook methodes selecteren naar welke wij meer onderzoek wilde doen om te achterhalen hoe geschikt zijn voor het oplossen van de probleemstelling.
 
 ### Onderzoeksvraag 2
-Om te achterhalen welke mogelijkheden er zijn om dit probleem op te lossen doormiddel van AI moet hier onderzoek naar gedaan worden. Op basis hiervan is er de volgende onderzoeksvraag opgesteld: Welke AI-mogelijkheden zijn er om de indeling van containers op de kade te bepalen? Om deze onderzoeksvraag te beantwoorden is er deskresearch uitgevoerd door verschillende papers, blogs en video's bestudeerd om verschillende methodes van AI te bestuderen.
+Om te achterhalen welke mogelijkheden er zijn om dit probleem op te lossen doormiddel van data science moet hier onderzoek naar gedaan worden. Op basis hiervan is er de volgende onderzoeksvraag opgesteld: Welke AI-mogelijkheden zijn er om de indeling van containers op de kade te bepalen? Om deze onderzoeksvraag te beantwoorden is er deskresearch uitgevoerd door verschillende papers, blogs en video's bestudeerd om verschillende methodes van AI te bestuderen.
 
 ## Evaluation
 

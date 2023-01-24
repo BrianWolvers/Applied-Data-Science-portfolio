@@ -14,6 +14,5 @@ In het onderdeel Domain knowledge word er besproken welke kennis er is vergaard 
 
 ## [Communication](https://github.com/BrianWolvers/ADS/blob/main/Communication.md)
 
-## Scrum backlog 
 
 

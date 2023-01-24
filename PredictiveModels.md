@@ -137,6 +137,11 @@ De hoogte van de accuracy recall en precision is terug te zien in de confusion m
 ![image](https://user-images.githubusercontent.com/121485743/214280874-0dfa225f-5a6f-4d7a-b161-462693e09793.png)
 
 
+## Notebook
+
+Mocht u de notebook willen bekijken welke gebruikt is voor het onderzoeken van het best passende model dan kunt u deze [hier]() downloaden.
+
+
 
 
 

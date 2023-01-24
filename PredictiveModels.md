@@ -32,10 +32,35 @@ for keuken in range(len(df_userdata)):
     elif df_userdata['kitchen'].iloc[keuken] == 'amerikaans':
         df_userdata['kitchen'].iloc[keuken] = 6
 ``` 
-## Training a model
+Vervolgens wordt er een train, test en validatie split gemaakt.
+```
+y= df_userdata['kitchen']
+X = df_userdata.drop('kitchen', axis = 1)
+
+y=y.astype('int')
+
+X_main, X_test, y_main, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
+X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, test_size = 0.25, random_state=42, stratify=y_main)
+X_test
+``` 
+De code hierboven is door Milan van Oeveren en Ilias Hazali alle code hieronder beschreven is door mijzelf opgesteld.
 
 
-## Evaluating a model
+Vervolgens kiezen is er aangegeven welk model er gebruikt gaat worden voor het classifiseren van de data. Deze wordt meteen ook gefit op de data en wordt er een voorspelling gedaan over de data.
+```
+model = MultinomialNB()
+model.fit(X_train,y_train)
+y_proba = model.predict(X_val)
+```
+Op basis van de fit is er gekeken naar de precision, recall en accuracy score.
+![image](https://user-images.githubusercontent.com/121485743/214257973-501765dc-1692-40e1-abcb-f95f924313ca.png)
+
+Ook op de testset behaald het model een hoge score
+![image](https://user-images.githubusercontent.com/121485743/214258255-55ede299-eaf2-43a2-98a0-ac157a1bc314.png)
+
+Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven wordt welke catagorieën het model voorspeld.
+![image](https://user-images.githubusercontent.com/121485743/214258718-dfca971e-6d09-44ec-b9d5-2839e897a41b.png)
+
 
 
 ## Visualizing the outcome of a model

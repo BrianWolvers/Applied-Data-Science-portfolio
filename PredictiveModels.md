@@ -128,7 +128,11 @@ Het tunen van de hyperparameters gaf een verbetering aan de scores, maar het kwa
 
 ## Conclusion
 
-Op basis van de resultaten van de verschillende modellen is te zien dat het Naive Bayes model de beste scores behaald. 
+Op basis van de resultaten van de verschillende modellen is te zien dat het Naive Bayes model de beste scores behaald. Dit zijn namelijk de volgende scores:
+
+![image](https://user-images.githubusercontent.com/121485743/214280626-22f9910e-766b-470b-a53f-6e7fd1768b95.png)
+
+
 
 
 

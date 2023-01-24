@@ -132,6 +132,11 @@ Op basis van de resultaten van de verschillende modellen is te zien dat het Naiv
 
 ![image](https://user-images.githubusercontent.com/121485743/214280626-22f9910e-766b-470b-a53f-6e7fd1768b95.png)
 
+De hoogte van de accuracy recall en precision is terug te zien in de confusion matrix. Hierin is te zien dat het model namelijk maar 2 voorspellingen fout had van de 200.
+
+![image](https://user-images.githubusercontent.com/121485743/214280874-0dfa225f-5a6f-4d7a-b161-462693e09793.png)
+
+
 
 
 

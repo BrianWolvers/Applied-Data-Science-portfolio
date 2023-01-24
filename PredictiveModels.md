@@ -139,7 +139,7 @@ De hoogte van de accuracy recall en precision is terug te zien in de confusion m
 
 ## Notebook
 
-Mocht u de notebook willen bekijken welke gebruikt is voor het onderzoeken van het best passende model dan kunt u deze [hier]() downloaden.
+Mocht u de notebook willen bekijken welke gebruikt is voor het onderzoeken van het best passende model dan kunt u deze [hier](https://github.com/BrianWolvers/ADS/blob/main/NoteBook%20Predictive%20analytics.pdf) bekijken.
 
 
 

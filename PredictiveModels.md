@@ -64,26 +64,30 @@ Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven
 
 Vervolgens is dit model vergeleken met andere classificatie modellen om te controleren of dit model wel degelijk het juiste model is voor het voorspellen van de Y waarde.
 
-als eerste is er een vergelijking gemaakt met een K nearest Neighbours model. 
+als eerste is er een vergelijking gemaakt met een K nearest Neighbors model. 
 ```
 model = KNeighborsClassifier()
 model.fit(X_train,y_train)
 y_proba = model.predict(X_val)
 ```
 
-Bij de KNearestNeighbour is te zien dat standaard deze een lagere score haalt op de foto hieronder. 
+Bij de KNearestNeighbor is te zien dat standaard deze een lagere score haalt op de foto hieronder. 
 
 ![image](https://user-images.githubusercontent.com/121485743/214269746-d5762bf9-1091-4806-83f7-7bc95a97a751.png)
 
-Bij Naives bayes is het niet mogelijk om hyperparameter tuning uit te voeren aangezien deze geen hyperparameters heeft om te tunen. KNearestNeighbour heeft dit wel en daarom is er ook gekeken of het model betere resultaten haalt als de hyperparameters getuned worden.
+Bij Naives bayes is het niet mogelijk om hyperparameter tuning uit te voeren aangezien deze geen hyperparameters heeft om te tunen. KNearestNeighbor heeft dit wel en daarom is er ook gekeken of het model betere resultaten haalt als de hyperparameters getuned worden.
 
 Op de foto is te zien welke Hyperparameters random search aanraad voor het model
 
-![image](https://user-images.githubusercontent.com/121485743/214271890-477ca4ba-8263-43e2-9262-899097207e6d.png)
+![image](https://user-images.githubusercontent.com/121485743/214273220-dd6017df-b2bf-41ee-9e26-138ef7bd0278.png)
 
 Op basis van de ingestelde hyperparameters is te zien dat de accuracy, recall en precision score is gestegen.
 
+![image](https://user-images.githubusercontent.com/121485743/214273350-95dd58ad-dfc8-4976-a915-60dd45231852.png)
 
+Ondanks dat de precision accuracy en recall gestegen is dit nog steeds niet zo goed of beter als het Naive Bayes. Op de foto hieronder is te zien welke voorspellingen het model heeft gedaan op het KNearest Neighbor model. Hier is te zien dat het model inderdaad meer verkeerde voorspellingen heeft gemaakt.
+
+![image](https://user-images.githubusercontent.com/121485743/214273896-b1f31542-c918-4ab5-b302-c79589cf71a7.png)
 
 
 

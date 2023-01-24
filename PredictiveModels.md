@@ -62,6 +62,20 @@ Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven
 
 ![image](https://user-images.githubusercontent.com/121485743/214258718-dfca971e-6d09-44ec-b9d5-2839e897a41b.png)
 
+Vervolgens is dit model vergeleken met andere classificatie modellen om te controleren of dit model wel degelijk het juiste model is voor het voorspellen van de Y waarde.
+
+als eerste is er een vergelijking gemaakt met een K nearest Neighbours model. 
+```
+model = KNeighborsClassifier()
+model.fit(X_train,y_train)
+y_proba = model.predict(X_val)
+```
+
+Bij de KNearestNeighbour is te zien dat standaard deze een lagere score haalt op de foto hieronder. 
+
+![image](https://user-images.githubusercontent.com/121485743/214269746-d5762bf9-1091-4806-83f7-7bc95a97a751.png)
+
+Bij Naives bayes is het niet mogelijk om hyperparameter tuning uit te voeren aangezien deze geen hyperparameters heeft om te tunen. KNearestNeighbour heeft dit wel en daarom is er ook gekeken of het model betere resultaten haalt als de hyperparameters getuned worden.
 
 
 

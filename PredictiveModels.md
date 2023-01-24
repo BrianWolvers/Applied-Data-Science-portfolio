@@ -117,6 +117,18 @@ De RandomForest toont al betere resultaten en kan mogelijk nog beter zijn dan he
 
 ![image](https://user-images.githubusercontent.com/121485743/214274762-8be18966-bbde-48d4-b647-a2a0f1c2a1cf.png)
 
+Voor het tunen van de hyperparameters zijn de volgende mogelijkheden meegegeven en is het volgende resultaat uit gekomen.
+
+![image](https://user-images.githubusercontent.com/121485743/214280144-58e5236c-0fae-4ccd-8111-f4b1bdf53cb5.png)
+
+Het tunen van de hyperparameters gaf een verbetering aan de scores, maar het kwam nog niet dicht bij genoeg aan de Naive Bayes. Dit is te zien op de volgende foto.
+
+![image](https://user-images.githubusercontent.com/121485743/214280328-e4bf0e01-84b2-4ae3-99ce-f156c5ee0251.png)
+
+
+## Conclusion
+
+Op basis van de resultaten van de verschillende modellen is te zien dat het Naive Bayes model de beste scores behaald. 
 
 
 

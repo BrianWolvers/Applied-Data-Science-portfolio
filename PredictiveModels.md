@@ -45,7 +45,7 @@ X_test
 ``` 
 De code hierboven is door Milan van Oeveren en Ilias Hazali alle code hieronder beschreven is door mijzelf opgesteld.
 
-
+## Naive Bayes
 Vervolgens kiezen is er aangegeven welk model er gebruikt gaat worden voor het classifiseren van de data. Deze wordt meteen ook gefit op de data en wordt er een voorspelling gedaan over de data.
 ```
 model = MultinomialNB()
@@ -63,6 +63,8 @@ Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven
 ![image](https://user-images.githubusercontent.com/121485743/214258718-dfca971e-6d09-44ec-b9d5-2839e897a41b.png)
 
 Vervolgens is dit model vergeleken met andere classificatie modellen om te controleren of dit model wel degelijk het juiste model is voor het voorspellen van de Y waarde.
+
+## KNearest Neighbors
 
 als eerste is er een vergelijking gemaakt met een K nearest Neighbors model. 
 ```
@@ -88,6 +90,33 @@ Op basis van de ingestelde hyperparameters is te zien dat de accuracy, recall en
 Ondanks dat de precision accuracy en recall gestegen is dit nog steeds niet zo goed of beter als het Naive Bayes. Op de foto hieronder is te zien welke voorspellingen het model heeft gedaan op het KNearest Neighbor model. Hier is te zien dat het model inderdaad meer verkeerde voorspellingen heeft gemaakt.
 
 ![image](https://user-images.githubusercontent.com/121485743/214273896-b1f31542-c918-4ab5-b302-c79589cf71a7.png)
+
+## DecisionTree
+
+Hetzelfde is uitgevoerd voor een DecisionTree classifier en een RandomForest classifier.
+
+Bij de Decisiontree is te zien dat de accuracy, recall en precision het laagste tot nu toe is.
+
+![image](https://user-images.githubusercontent.com/121485743/214274489-de74561d-5ce7-4bfe-a9ad-7372f52926b9.png)
+
+
+bij het tunen zijn de volgende mogelijkheden meegegeven en komt random search terug met de volgende hyperparameters.
+
+![image](https://user-images.githubusercontent.com/121485743/214277289-6cac0fe1-b66a-44cb-ad97-d7d8172a7d3f.png)
+
+![image](https://user-images.githubusercontent.com/121485743/214277372-c0840940-436a-4246-b306-a95f57dcd293.png)
+
+Wat opvalt is dat hij bij de random search niet alle hyperparameters meeneemt bij het bepalen van de optimale hyperparameters. Bij meerdere pogingen nam hij deze telkens niet mee. Na het tunen is te zien dat er weinig tot geen verbeteringen zijn. Hierbij is dus te zien dat de DecisionTree geen geschikt model voor het voorspellen van de favoriete keuken.
+
+![image](https://user-images.githubusercontent.com/121485743/214277721-28f2a5cd-6a06-44ef-bcbc-657c883933ec.png)
+
+
+## Random Forest
+
+De RandomForest toont al betere resultaten en kan mogelijk nog beter zijn dan het Naive Bayes model na hyperparameter tuning.
+
+![image](https://user-images.githubusercontent.com/121485743/214274762-8be18966-bbde-48d4-b647-a2a0f1c2a1cf.png)
+
 
 
 

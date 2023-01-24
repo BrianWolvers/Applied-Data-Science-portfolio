@@ -77,6 +77,10 @@ Bij de KNearestNeighbour is te zien dat standaard deze een lagere score haalt op
 
 Bij Naives bayes is het niet mogelijk om hyperparameter tuning uit te voeren aangezien deze geen hyperparameters heeft om te tunen. KNearestNeighbour heeft dit wel en daarom is er ook gekeken of het model betere resultaten haalt als de hyperparameters getuned worden.
 
+![image](https://user-images.githubusercontent.com/121485743/214271890-477ca4ba-8263-43e2-9262-899097207e6d.png)
+
+Op de foto is te zien welke Hyperparameters random search aanraad voor het model
+
 
 
 

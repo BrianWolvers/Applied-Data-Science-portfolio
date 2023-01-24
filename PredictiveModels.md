@@ -58,9 +58,12 @@ Op basis van de fit is er gekeken naar de precision, recall en accuracy score.
 Ook op de testset behaald het model een hoge score
 ![image](https://user-images.githubusercontent.com/121485743/214258255-55ede299-eaf2-43a2-98a0-ac157a1bc314.png)
 
-Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven wordt welke catagorieën het model voorspeld.
+Op basis van de resultaten is er een confusion matrix gemaakt waarin weergegeven wordt welke catagorieën het model voorspeld. Hierin is te zien dat het model heel veel van de voorspellingen goed heeft gedaan. Het model heeft bij twee personen de verkeerde favoriete keuken voorspeld. 
 ![image](https://user-images.githubusercontent.com/121485743/214258718-dfca971e-6d09-44ec-b9d5-2839e897a41b.png)
 
 
 
-## Visualizing the outcome of a model
+
+
+
+

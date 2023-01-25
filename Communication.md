@@ -17,7 +17,7 @@ Voor de paper was ik verantwoordelijk voor hoofdstuk 2: Data. Hierin heb ik zelf
 
 Naast het schrijven van stukken heb ik ook de Abstract gecontroleerd op inhoudt en opbouw. Dit onderdeel was geschreven door Anass en hierbij heb ik met meerdere iteraties aangegeven wat er incorrect was of wat er aangepast moest worden.
 
-De paper kan bekeken worden als u [hier]() klikt.
+De paper kan bekeken worden als u [hier](https://github.com/BrianWolvers/ADS/blob/main/paper%20Groep%206%20Container%20project.pdf) klikt.
 
 
 

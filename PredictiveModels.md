@@ -6,7 +6,7 @@ Voor het selecteren van een model is het eerst belangrijk om te bepalen of je ee
 
 Voor het model is er gekozen voor een Naive Bayes model. Volgens de website [Towardsdatascience](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501) is dit model namelijk geschikt om te werken met relatief weinig data. In de dataset bevind zich de ingrediënten van de recepten die een persoon lekker vind en daarbij ook hun favoriete keuken. In totaal zijn er 7 verschillende keukens in de dataset. In de dataset zit data van 1400 gesimuleerde mensen. Voor de dataset is het volgende bestand gebruikt: [Foodboost](https://github.com/BrianWolvers/ADS/blob/main/final_userdata_min_40.csv) De code voor het genereren van deze dataset is geschreven door Bram ten Cate.
 
-## Configuring a model
+## Naive Bayes
 Als eerste wordt de dataset ingeladen in het script. 
 ```
 df_userdata = pd.read_csv('final_userdata_min_40.csv')                
